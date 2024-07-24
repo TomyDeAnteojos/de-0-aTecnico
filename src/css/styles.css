@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+}
+
 header {
   text-align: center;
+  align-content: center;
   height: 100px;
   font-size: 20px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
