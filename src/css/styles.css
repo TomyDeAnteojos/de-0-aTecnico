@@ -188,4 +188,32 @@ p {
   text-transform: initial;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-align: left;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+footer a {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+footer a .retroceder, footer a .menu, footer a .avanzar {
+  padding: 20px;
+  background-color: orange;
+  border-radius: 20px;
+  border: #252525 2px solid;
+}
+footer a .retroceder:hover, footer a .menu:hover, footer a .avanzar:hover {
+  background-color: #f9f9f9;
+  color: orange !important;
+}
+footer a:hover {
+  color: orange;
 }/*# sourceMappingURL=styles.css.map */

@@ -207,3 +207,37 @@ p {
     
     
 }
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    a{
+        text-decoration: none;
+        color: #f9f9f9;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        .retroceder, .menu, .avanzar {
+            padding: 20px;
+            background-color: orange;
+            border-radius: 20px;
+            border: #252525 2px solid;
+    
+            
+    
+            &:hover {
+                background-color: #f9f9f9;
+                color: orange !important;
+            }
+        } 
+
+        &:hover {
+            color: orange;
+        }
+    }
+    
+}
