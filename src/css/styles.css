@@ -142,6 +142,7 @@ p {
   flex-direction: column;
   margin: auto;
   border-radius: 8px;
+  margin-bottom: 50px;
 }
 .lista-temas .box {
   list-style-type: none;

@@ -152,7 +152,7 @@ p {
     flex-direction: column;
     margin: auto;
     border-radius: 8px;
-
+    margin-bottom: 50px;
     .box {
         list-style-type: none;
         padding: 20px;
@@ -226,9 +226,7 @@ footer {
             background-color: orange;
             border-radius: 20px;
             border: #252525 2px solid;
-    
-            
-    
+
             &:hover {
                 background-color: #f9f9f9;
                 color: orange !important;
