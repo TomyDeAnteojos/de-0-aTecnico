@@ -144,7 +144,11 @@ p {
   border-radius: 8px;
   margin-bottom: 50px;
 }
-.lista-temas .box {
+.lista-temas a {
+  text-decoration: none;
+  color: #252525;
+}
+.lista-temas a .box {
   list-style-type: none;
   padding: 20px;
   border-radius: 8px;
@@ -152,16 +156,12 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.lista-temas .box a {
-  text-decoration: none;
-  color: #252525;
-}
-.lista-temas .box:hover {
+.lista-temas a .box:hover {
   background-color: #ddd;
   cursor: pointer;
   color: darkblue;
 }
-.lista-temas .box:hover a {
+.lista-temas a .box:hover a {
   color: #3c01ff;
 }
 

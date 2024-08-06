@@ -153,27 +153,30 @@ p {
     margin: auto;
     border-radius: 8px;
     margin-bottom: 50px;
-    .box {
-        list-style-type: none;
-        padding: 20px;
-        border-radius: 8px;
-        background-color: orange;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        a {
-            text-decoration: none;
-            color:#252525;
-        }
-        &:hover {
-            background-color: #ddd;
-            cursor:pointer; // Cambia el tipo de cursor al pasar el mouse
-            color: darkblue;
-            a{
-                color:#3c01ff
-            }
+    a {
+        text-decoration: none;
+        color:#252525;
+
+        .box {
+            list-style-type: none;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: orange;
+            margin-top: 10px;
+            margin-bottom: 10px;
             
+            &:hover {
+                background-color: #ddd;
+                cursor:pointer; // Cambia el tipo de cursor al pasar el mouse
+                color: darkblue;
+                a{
+                    color:#3c01ff
+                }
+                
+            }
         }
     }
+    
 }
 
 .container {
